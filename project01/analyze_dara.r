@@ -1,6 +1,6 @@
 library(tidyverse)
 
-mrtcars %>% glimpse()
+mtcars %>% glimpse()
 
 mtcars %>%
   select(mpg, hp, wt) %>%

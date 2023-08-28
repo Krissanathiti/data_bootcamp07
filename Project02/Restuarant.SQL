@@ -1,11 +1,5 @@
 -- restaurant database
 
--- 5 tables
--- write 3-5 quries
--- 1x WITH
--- 1x SUBQUERY
--- 1x Aggregate functions
-
 .open restuarant.db
 
 DROP TABLE menus;

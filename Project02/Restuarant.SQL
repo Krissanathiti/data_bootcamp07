@@ -1,5 +1,4 @@
 -- restaurant database
-
 .open restuarant.db
 
 DROP TABLE menus;
@@ -7,6 +6,7 @@ DROP TABLE customers;
 DROP TABLE members;
 DROP TABLE invoices;
 DROP TABLE restaurants;
+
 
 --Create table menus
 CREATE TABLE menus (
@@ -20,6 +20,7 @@ INSERT INTO menus VALUES
     (1003, 'coke'),
     (1004, 'yogurt'),
     (1005, 'ice cream');
+
 
 -- Create table customers
 CREATE TABLE customers (
@@ -36,6 +37,7 @@ INSERT INTO customers VALUES
     (4, 'Peter', 'M004', 'M'),
     (5, 'Alex', 'M005', 'M');
 
+
 -- Create table members
 CREATE TABLE members (
     member_id text,
@@ -48,6 +50,7 @@ INSERT INTO members VALUES
     ('M003', 'USA'),
     ('M004', 'USA'),
     ('M005', 'Sweden');
+
 
 -- Create table restaurants
 CREATE TABLE restaurants (
@@ -63,6 +66,7 @@ INSERT INTO restaurants VALUES
     ('R003', 'Best dessert', 'USA', 'North America'),
     ('R004', 'Oh wow', 'Japan', 'Asia'),
     ('R005', 'Baby food', 'Indonisia', 'Asia');
+
 
 -- Create table invoices
 CREATE TABLE invoices (
